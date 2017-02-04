@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pulp build && rollup -c rollup.conf.js"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.4",
+    "rollup-plugin-purs": "^1.0.16",
+    "purescript": "^0.10.5",
+    "pulp": "^10.0.0"
+  }
+}
